@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&family=Rowdies:wght@300&display=swap'); 
+    body{
+        
+        margin:5em 0em;     
+        font-size:1em;
+        color: rgb(58, 224, 80);
+        font-weight:bold;
+        text-transform: uppercase;
+        
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ .top{
+     background: #333;
+     color:white;
+     padding: 3px  6px;
+
+ }
+
+ 
+ ul li{
+     display: inline;
+
+
+ }
+ ul   a{
+     color:white;
+   text-decoration: none;
+  font-size: 17px; 
+  padding:14px 16px;
+ 
+ }
+ 
+ ul a.current{
+      background:rgb(31, 145, 173);
+ }    
+
+ ul a.log{
+      float:right;
+      justify-content:center;
+      text-align:center;
+ }   
+ .img{
+    top: 0;
+    position: absolute;
+    height: 55px;
+    width: 79px;
+    /* float: right; */
+    margin: 0 88em;
+    border-radius: 50%;
+ }
